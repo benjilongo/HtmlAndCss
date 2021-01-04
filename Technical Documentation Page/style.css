@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  overflow: hidden;
+}
+ #navbar{
+  float: left;
+  padding: 20px;
+  width: 30%;
+  height: 680px;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+}
+#main-doc{
+  float: right;
+  padding: 20px;
+  width: 70%;
+  height: 680px;
+  overflow-y: scroll;
+ 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 600px) {
+  #navbar{
+  width: 100%;  
+}
+#main-doc{
+  width: 100%;
+}
+}
+.nav-link{
+  color: gray;
+  display: block;
+  padding: 12px;
+  font-size: 20px;
+}
+header{
+  font-size: 28px;
+}
+
+  

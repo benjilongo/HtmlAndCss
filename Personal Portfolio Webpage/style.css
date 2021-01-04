@@ -1,0 +1,82 @@
+body{
+  background-color: rgb(44, 37, 37);
+  margin: 0;
+}
+#navbar{
+  position: fixed;
+  width: 100%;
+  background-color: rgb(170, 50, 50);
+}
+nav ul {
+  list-style-type: none;
+  float: right;
+  font-size: 25px; 
+}
+nav ul li {
+  display: inline; 
+  padding: 20px; 
+}
+nav ul li a {
+  text-decoration: none;
+  color: beige;
+}
+nav ul li a:hover{
+  background-color: rgb(175, 175, 162);
+  color: rgb(243, 209, 166);
+}
+section{
+  height: 100vh;
+}
+section h1{
+  font-family: 'Roboto Slab';
+}
+section h2{
+  font-size: 25px;
+  color: rgb(170, 50, 50);
+  font-family: 'Open Sans';
+}
+
+#welcome-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: beige;
+  text-align: center;
+  font-size: 28px;
+
+}
+#projects{
+  background-color: beige;
+  color: rgb(44, 37, 37);
+  text-align: center;
+  font-size: 28px;
+}
+.project-tile{
+  padding: 100px;
+}
+#contact{
+  color: beige;
+  text-align: center;
+  font-size: 28px;
+}
+.contact{
+  padding: 100px;
+}
+footer {
+  background-color: rgb(165, 5, 5);
+  color: beige;
+}
+@media (max-width: 600px){
+  #welcome-section{
+  font-size: 14px;
+  }
+#projects{
+  font-size: 14px;
+  }
+  #contact{
+    font-size: 14px;
+  }
+  section h2{
+    font-size: 12px;
+  }
+}
